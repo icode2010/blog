@@ -6,7 +6,7 @@ import Category from './components/Category.vue'
 import Tags from './components/Tags.vue'
 import Page from './components/Page.vue'
 import Comment from './components/CommentGiscus.vue'
-
+import FriendLinksPage from './components/FriendLinksPage.vue'
 import './custom.css'
 
 export default {
@@ -19,5 +19,6 @@ export default {
         app.component('Archives', Archives)
         app.component('Page', Page)
         app.component('Comment', Comment)
+        app.component('FriendLinksPage', FriendLinksPage)
     }
 } satisfies Theme

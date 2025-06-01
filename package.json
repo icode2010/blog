@@ -13,10 +13,13 @@
     "type": "module",
     "license": "ISC",
     "devDependencies": {
-        "vitepress": "^1.6.3",
+        "fs-extra": "^11.3.0",
         "globby": "^14.1.0",
         "gray-matter": "^4.0.3",
-        "fs-extra": "^11.3.0",
+        "vitepress": "^1.6.3",
         "vitepress-plugin-comment-with-giscus": "^1.1.15"
+    },
+    "dependencies": {
+        "date-fns": "^4.1.0"
     }
 }
